@@ -70,3 +70,8 @@ ods string
 using delta
 partitioned by (ods)
 location "/mnt/rbdhub1000/retail-db/customers_t2";
+
+-- COMMAND ----------
+
+select * from etl_fw.customers_main_t1;
+--select * from etl_fw.customers_dept_t1;
